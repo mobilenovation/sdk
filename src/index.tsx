@@ -17,7 +17,7 @@ const SDK = () => {
       )
       .then((response) => {
         // handle success
-        setVideo(response.data[0]);
+        setVideo(response.data[2]);
       })
       .catch(function (error) {
         // handle error
