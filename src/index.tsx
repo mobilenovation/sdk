@@ -34,7 +34,6 @@ const SDK = () => {
   }
   return (
     <View>
-      <Text>{'hello'}</Text>
       <VideoPlayer
         video={{
           uri: video?.videoUrl,
